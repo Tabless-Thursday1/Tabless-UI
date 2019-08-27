@@ -62,7 +62,7 @@ body {
 a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.609);
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 .eye {
   width: 100%;
@@ -279,6 +279,12 @@ section.teamsec {
 }
 .pointst {
   color: black;
+}
+.pointst2 {
+  color: black;
+  border-bottom: 1px dashed black;
+  margin-bottom: 2%;
+  padding-bottom: 2%;
 }
 .bottomimg {
   width: 88%;
