@@ -1,5 +1,171 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 * {
   font-size: 62.5%;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Raleway', sans-serif;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
 }
 header {
   display: flex;
@@ -9,24 +175,12 @@ header {
   border-radius: 3px;
   margin-bottom: 2%;
 }
-section.firstsec {
-  background-image: url("../img/comp.jpg");
-  padding: 2%;
-  margin-left: 2%;
-  margin-right: 2%;
-  border-radius: 5px;
-}
-section.secsection {
-  padding: 2%;
-}
 h3 {
   padding-left: 4%;
   font-size: 2.5rem;
   color: black;
   text-align: center;
-}
-.black {
-  color: black;
+  padding-top: 15px;
 }
 h1 {
   color: rgba(255, 255, 255, 0.589);
@@ -63,6 +217,45 @@ a {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.609);
   font-size: 1.4rem;
+}
+h4 {
+  text-align: center;
+}
+article {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 20px;
+  margin: 0;
+}
+p {
+  flex: 1;
+  line-height: 1.4;
+}
+span {
+  font-size: 12px;
+  font-weight: bold;
+  color: #999;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin: 2em 0 0 0;
+}
+section.firstsec {
+  background-image: url("../img/comp.jpg");
+  padding: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  border-radius: 5px;
+}
+section.secsection {
+  padding: 2%;
+}
+.black {
+  color: black;
 }
 .eye {
   width: 100%;
@@ -103,9 +296,6 @@ a {
 .teamsec {
   display: flex;
   margin: 2%;
-}
-h4 {
-  text-align: center;
 }
 .centerh1 {
   text-align: center;
@@ -152,30 +342,6 @@ section.teamsec {
 .card:hover {
   top: -2px;
   box-shadow: 0 4px 5px rgba(0, 0, 0, 0.2);
-}
-.card article {
-  padding: 20px;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-.card h1 {
-  font-size: 20px;
-  margin: 0;
-  color: #333;
-}
-.card p {
-  flex: 1;
-  line-height: 1.4;
-}
-.card span {
-  font-size: 12px;
-  font-weight: bold;
-  color: #999;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  margin: 2em 0 0 0;
 }
 .card .thumb {
   padding-bottom: 60%;
