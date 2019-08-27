@@ -144,6 +144,7 @@ section.teamsec {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+  border-radius: 10px;
   position: relative;
   top: 0;
   transition: all 0.1s ease-in;
@@ -296,4 +297,10 @@ section.teamsec {
 }
 .body2 {
   background: black;
+}
+.bottomsection {
+  border: 1px solid black;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  background: #f6e9e9;
 }
