@@ -335,7 +335,7 @@ section.teamsec {
   grid-template-rows: auto;
   grid-gap: 20px;
 }
-@media (min-width: 30em) {
+@media (min-width: 500px) {
   .band {
     grid-template-columns: 1fr 1fr;
   }
