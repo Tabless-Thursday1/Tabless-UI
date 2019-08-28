@@ -275,3 +275,49 @@ section.teamsec {
   border-radius: 13px;
   height: 100%;
 }
+
+.cards {
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  width: auto;
+}
+///////
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.row {
+  margin: 0 -5px;
+  text-align: center;
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.car {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background: #f1f1f1;
+  color: white;
+  border-radius: 20px;
+}
+.car:hover {
+  background: red;
+}
+
+@media screen and (max-width: 600px) {
+  width: 100%;
+  display: block;
+  margin-bottom: 20px;
+}
