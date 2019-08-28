@@ -225,6 +225,9 @@ article {
 h1 {
   font-size: 20px;
   margin: 0;
+  color: black;
+  text-align: center;
+  padding-bottom: 4%;
 }
 p {
   flex: 1;
@@ -410,6 +413,7 @@ section.teamsec {
   font-size: 7rem;
   font-weight: 600;
   margin-bottom: 0;
+  color: #ffffff80;
 }
 .hero-subtitle {
   font-size: 2rem;
@@ -515,12 +519,28 @@ section.teamsec {
   float: left;
   width: 25%;
   padding: 0 10px;
+  padding-bottom: 3%;
+}
+@media (max-width: 700px) {
+  .column {
+    width: 51%;
+  }
 }
 .row {
   margin: 0 -5px;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
+}
+@media screen and (max-width: 700px) {
+  .row {
+    margin: 0 -5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    justify-content: center;
+  }
 }
 .row:after {
   content: "";
@@ -529,11 +549,22 @@ section.teamsec {
 }
 .car {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
+  padding: 2px;
   text-align: center;
   background: #f1f1f1;
   color: white;
   border-radius: 20px;
+}
+@media (max-width: 700px) {
+  .car {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 2px;
+    text-align: center;
+    background: #f1f1f1;
+    color: white;
+    border-radius: 20px;
+    width: 200%;
+  }
 }
 .car:hover {
   background: red;
