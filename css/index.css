@@ -206,6 +206,7 @@ button:hover {
 body {
   background: black;
   margin: 2% auto;
+  width: 90%;
 }
 a {
   text-decoration: none;
@@ -246,7 +247,7 @@ span {
   margin: 2em 0 0 0;
 }
 section {
-  background: #d0e494;
+  background: black;
   text-align: center;
   margin-left: 1%;
   margin-right: 1%;
