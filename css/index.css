@@ -227,8 +227,8 @@ h1 {
   font-size: 20px;
   margin: 0;
   color: black;
-  text-align: center;
   padding-bottom: 4%;
+  border-bottom: 1px solid gold;
 }
 p {
   flex: 1;
@@ -249,8 +249,6 @@ span {
 section {
   background: black;
   text-align: center;
-  margin-left: 1%;
-  margin-right: 1%;
 }
 h5 {
   font-size: 3rem;
@@ -477,11 +475,12 @@ section.teamsec {
   width: 88%;
   height: 100%;
   margin-top: 2%;
-  border-radius: 20px;
-  padding-left: 2%;
+  border-radius: 40%;
+  padding-left: 10%;
 }
 .parag {
   display: flex;
+  flex-direction: column;
 }
 @media (max-width: 900px) {
   .parag {
@@ -504,7 +503,7 @@ section.teamsec {
   color: black;
 }
 .lastsection {
-  background: #d0e494;
+  background: #9ed0d1;
   color: black;
   border-radius: 13px;
   height: 100%;
@@ -574,4 +573,8 @@ section.teamsec {
   width: 100%;
   display: block;
   margin-bottom: 20px;
+}
+.flexer {
+  display: flex;
+  display: none;
 }
